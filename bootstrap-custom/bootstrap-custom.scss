@@ -1,4 +1,4 @@
-// Colori personalizzati per il tema
+// Customized colors
 $theme-colors: (
     "primary":    #0050eb,
     "secondary":  #9c32f9,
@@ -10,13 +10,18 @@ $theme-colors: (
     "dark":       #323648,
 );
 
-// Fonts personalizzati
+// Customized fonts (from Google Fonts)
 $font-family-sans-serif:      'Numans', sans-serif;
 $font-family-monospace:       'Overpass Mono', monospace;
 
+// Customized border radius for form
+$border-radius:               .55rem;
+$border-radius-lg:            .6rem;
+$border-radius-sm:            .5rem;
 
 
-// Importo il resto di Bootstrap per compilare
+
+// Bootstrap source
 @import 'scss/bootstrap';
 
 
