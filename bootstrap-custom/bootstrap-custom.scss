@@ -1,0 +1,22 @@
+// Colori personalizzati per il tema
+$theme-colors: (
+    "primary":    #0050eb,
+    "secondary":  #9c32f9,
+    "success":    #65b107,
+    "info":       #40bdad,
+    "warning":    #e7d36e,
+    "danger":     #dd353d,
+    "light":      #f7f2fe,
+    "dark":       #323648,
+);
+
+// Fonts personalizzati
+$font-family-sans-serif:      'Numans', sans-serif;
+$font-family-monospace:       'Overpass Mono', monospace;
+
+
+
+// Importo il resto di Bootstrap per compilare
+@import 'scss/bootstrap';
+
+
